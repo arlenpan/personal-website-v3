@@ -1,0 +1,19 @@
+.svg {
+    stroke-width: 10;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+}
+
+.svg path {
+    stroke: #222;
+    fill: none;
+    animation: dash 1s ease-in-out forwards;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
